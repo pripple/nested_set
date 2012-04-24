@@ -109,8 +109,8 @@ module CollectiveIdea #:nodoc:
         #   arranged_nodes = Category.arranged
         #
         #   <%= render_tree arranged_nodes do |node, child| %>
-        #     <li><%= node.name %></li>
-        #     <%= child %>
+        #     <li><%= node.name %>
+        #     <%= child %></li>
         #   <% end %>
         #
         def render_tree hash, options = {}, &block
