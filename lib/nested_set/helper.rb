@@ -56,7 +56,7 @@ module CollectiveIdea #:nodoc:
         # You can pass a block receiving an item and returning the string displayed in the select.
         #
         # == Params
-        #  * +class_or_item+ - Class name or top level times
+        #  * +class_or_item+ - Class name or top level items
         #  * +sort_proc+ sorting proc for node's child, ex. lambda{|x| x.name}
         #  * +mover+ - The item that is being move, used to exlude impossible moves
         #  * +level+ - start level, :default => 0
